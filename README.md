@@ -2,7 +2,7 @@
 
 A responsive full-stack web application for viewing and interacting with sales representative data, built with Next.js (frontend) and FastAPI (backend).
 
-![App Preview](https://via.placeholder.com/800x400?text=Sales+Dashboard+Screenshot) <!-- Replace with actual screenshot -->
+![App Preview](SalesDashboardInter.png) <!-- Replace with actual screenshot -->
 
 ## 🚀 Features
 

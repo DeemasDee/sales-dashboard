@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":["file:///home/mdsme/Documents/project/InterOpera/frontend/pages/_app.js"],"sourcesContent":["import { ChakraProvider } from '@chakra-ui/react'\n\nfunction MyApp({ Component, pageProps }) {\n  return (\n    <ChakraProvider>\n      <Component {...pageProps} />\n    </ChakraProvider>\n  )\n}\n\nexport default MyApp\n"],"names":[],"mappings":";;;;AAAA;;;;;;;AAEA,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAE;IACrC,qBACE,qKAAC,8IAAA,CAAA,iBAAc;kBACb,cAAA,qKAAC;YAAW,GAAG,SAAS;;;;;;;;;;;AAG9B;uCAEe","debugId":null}}]
+}

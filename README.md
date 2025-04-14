@@ -1,34 +1,50 @@
-📊 Sales Dashboard App
+# 📊 Sales Dashboard App
+
 A responsive full-stack web application for viewing and interacting with sales representative data, built with Next.js (frontend) and FastAPI (backend).
 
-🚀 Features
-View detailed sales rep profiles: role, region, skills, deals, and clients
+![App Preview](https://via.placeholder.com/800x400?text=Sales+Dashboard+Screenshot) <!-- Replace with actual screenshot -->
 
-Ask questions via a mock AI assistant
+## 🚀 Features
 
-Search & filter reps by name, region, or skill
+- View detailed sales rep profiles: role, region, skills, deals, and clients
+- Ask questions via a mock AI assistant
+- Search & filter reps by name, region, or skill
+- Sort reps by number of deals or region
+- View summary statistics by region
+- Responsive design for all device sizes
 
-Sort reps by number of deals or region
+## 🛠️ Tech Stack
 
-View summary statistics by region
+**Frontend:**
+- Next.js 14
+- React 18
+- Bootstrap 5
 
+**Backend:**
+- FastAPI
+- Python 3.10+
 
+**Development:**
+- TypeScript (frontend)
+- Vercel (deployment ready)
+- Uvicorn (ASGI server)
 
-🛠️ Tech Stack
-Frontend: Next.js, Bootstrap 5
+## 📦 Setup Instructions
 
-Backend: FastAPI
-
-Styling: Bootstrap (CDN or npm)
-
-Language: JavaScript (React), Python 3
-
-
-
-📦 Setup Instructions
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/sales-dashboard.git
+### 1. Clone the Repository
+```bash
+git clone https://github.com/DeemasDee/sales-dashboard.git
 cd sales-dashboard
+```
+
+### 2. Backend Setup (FastAPI)
+```bash
+cd backend
+python -m venv venv
+# On Linux/Mac:
+source venv/bin/activate
+# On Windows:
+.\venv\Scripts\activate
+
+pip install -r requirements.txt
+```
